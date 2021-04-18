@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.card {
+  border: 0px solid rgba(0,0,0,.125) !important;
+  min-height: 200px !important;
+  background: hsl(0, 0%, 93%) !important;
+  border-radius: 20px !important;
+}

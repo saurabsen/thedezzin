@@ -1,0 +1,30 @@
+<div class="container-fluid">
+  <div class="row">
+    <h2>Design</h2>
+    <div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row mt-2">
+    <div class="col-md-3 p-2" *ngFor="let item of dummyItem">
+      <div class="card">
+        <div class="card-body">
+          This is some text within a card body {{ item }}.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
