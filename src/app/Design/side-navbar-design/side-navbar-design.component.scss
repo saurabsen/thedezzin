@@ -1,0 +1,27 @@
+.fixed-header {
+  position: fixed;
+  z-index:999;
+  height: 50px;
+}
+
+#frugalmap {
+  //height: 300px;
+  width: 100%;
+  top: 50px;
+  position: relative;
+}
+
+.mat-elevation-z5 {
+  position: relative;
+  width: 19em !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 5px;
+  width: 19em !important;
+}
+
+nav a {
+  color: black;
+}

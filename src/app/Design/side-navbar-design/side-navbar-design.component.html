@@ -1,19 +1,22 @@
-<div class="card">
-  <div class="card-body">
+<div class="card" id="secondToolbar" color="warn" [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
+  <div class="card-body" style="overflow-y: scroll;height: 88vh;">
     <nav class="nav flex-column">
-      <a class="nav-link" href="#">Active</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
-      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" [routerLink]="['/design/all-resource']">All Resource</a>
+      <a class="nav-link" [routerLink]="['/design/accessibility']">Accessibility</a>
+      <a class="nav-link" [routerLink]="['/design/animation']">Animation</a>
+      <a class="nav-link" [routerLink]="['/design/books']" routerLinkActive="router-link-active" >Books</a>
+      <a class="nav-link" [routerLink]="['/design/color']" routerLinkActive="router-link-active" >Color</a>
+      <a class="nav-link" [routerLink]="['/design/content']">Content Generator</a>
+      <a class="nav-link" [routerLink]="['/design/inspiration']">Design Inspiration</a>
+      <a class="nav-link" [routerLink]="['/design/design-system']">Design System</a>
+      <a class="nav-link" [routerLink]="['/design/gradient']">Gradiant</a>
+      <a class="nav-link" [routerLink]="['/design/icon']">Icon</a>
+      <a class="nav-link" [routerLink]="['/design/illustration']">Illustration</a>
+      <a class="nav-link" [routerLink]="['/design/mockup']">Mockup</a>
+      <a class="nav-link" [routerLink]="['/design/pattern-and-abstract']">Pattern and Abstract</a>
+      <a class="nav-link" [routerLink]="['/design/stock-image']">Stock Images</a>
+      <a class="nav-link" [routerLink]="['/design/stock-video']">Stock Videos</a>
+      <a class="nav-link" [routerLink]="['/design/typography']">Typography</a>
     </nav>
   </div>
 </div>

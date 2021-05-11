@@ -1,0 +1,20 @@
+.bg-image {
+  background: url("../../../assets/design-img/dancing.png") center no-repeat;
+  background-size: 18em;
+  animation: mymove 5s infinite;
+  height: 100%;
+  position: relative;
+  //animation: mymove 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes mymove {
+  from {bottom: 0px;}
+  to {bottom: 30px;}
+}
+
+.lp-header {
+  width: 160em;
+  margin-top: 2em;
+  margin-left: 2em;
+}

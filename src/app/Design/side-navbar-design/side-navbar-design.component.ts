@@ -1,3 +1,4 @@
+import { HostListener } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,6 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class SideNavbarDesignComponent implements OnInit {
 
   constructor() { }
+
+  isSticky: boolean = false;
+
+  @HostListener('window:scroll', ['$event'])
+  checkScroll() {
+    this.isSticky = window.pageYOffset >= 400;
+  }
 
   ngOnInit(): void {
   }

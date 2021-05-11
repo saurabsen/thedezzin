@@ -2,6 +2,41 @@
 .card {
   border: 0px solid rgba(0,0,0,.125) !important;
   min-height: 200px !important;
-  background: hsl(0, 0%, 93%) !important;
+  background: hsl(0, 0%, 100%) !important;
   border-radius: 20px !important;
+
+  padding: 20px;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  //width: calc(33.33% - 21.5px);
+  //background: #fff;
+  box-shadow: 8px 16px 80px -36px rgb(0 81 132 / 25%);
+  border-radius: 16px;
+}
+
+
+/* scroll bar style */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(241, 241, 241);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(216, 216, 216);
 }
