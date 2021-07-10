@@ -1,5 +1,9 @@
 # Thedezzin
 
+npm install -g angular-cli-ghpages
+ng build --prod --base-href="https://<user-name>.github.io/<repo>/"
+  npx angular-cli-ghpages --dir=dist/Project-name
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
 ## Development server
