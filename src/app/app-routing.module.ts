@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutUsComponent } from './about-us/about-us.component';
 import { AccessibilityComponent } from './Design/all-resource/accessibility/accessibility.component';
 import { AllDesignResourceComponent } from './Design/all-resource/all-design-resource/all-design-resource.component';
 import { AnimationComponent } from './Design/all-resource/animation/animation.component';
@@ -39,8 +40,8 @@ const routes: Routes = [
     { path: 'stock-video', component: VideoDesignComponent, },
     { path: 'typography', component: TypographyDesignComponent, },
   ]
-  }
-  ,
+  },
+  { path: 'about-us', component: AboutUsComponent },
 ];
 
 @NgModule({

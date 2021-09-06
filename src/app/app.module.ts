@@ -26,6 +26,7 @@ import { PatternbgDesignComponent } from './Design/all-resource/patternbg-design
 import { ImageDesignComponent } from './Design/all-resource/image-design/image-design.component';
 import { VideoDesignComponent } from './Design/all-resource/video-design/video-design.component';
 import { TypographyDesignComponent } from './Design/all-resource/typography-design/typography-design.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { TypographyDesignComponent } from './Design/all-resource/typography-desi
     PatternbgDesignComponent,
     ImageDesignComponent,
     VideoDesignComponent,
-    TypographyDesignComponent
+    TypographyDesignComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
