@@ -9,7 +9,17 @@ export class AboutUsComponent implements OnInit {
 
   constructor() { }
 
+  button: string = "clicked";
+  clc: boolean = false;
+
   ngOnInit(): void {
+  }
+
+  blutton() {
+    if(this.clc == false){
+      this.clc = true;
+      alert("we clicked");
+    }
   }
 
 }
