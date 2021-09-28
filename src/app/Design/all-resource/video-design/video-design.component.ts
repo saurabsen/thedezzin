@@ -13,7 +13,7 @@ export class VideoDesignComponent implements OnInit {
   constructor( private designService: DesignService) { }
 
   ngOnInit(): void {
-    this.designService.getTypography().subscribe(data => {
+    this.designService.getVideo().subscribe(data => {
       this.listItem = data;
       console.log(data);
   });

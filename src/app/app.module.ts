@@ -27,6 +27,8 @@ import { ImageDesignComponent } from './Design/all-resource/image-design/image-d
 import { VideoDesignComponent } from './Design/all-resource/video-design/video-design.component';
 import { TypographyDesignComponent } from './Design/all-resource/typography-design/typography-design.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { CommunityComponent } from './community/community.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
     ImageDesignComponent,
     VideoDesignComponent,
     TypographyDesignComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    CommunityComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

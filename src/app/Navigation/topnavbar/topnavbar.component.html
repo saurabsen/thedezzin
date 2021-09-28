@@ -37,14 +37,14 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Design</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">Code</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/blog']" routerLinkActive="router-link-active" >Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Community</a>
+            <a class="nav-link" [routerLink]="['/community']" routerLinkActive="router-link-active" >Community</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" [routerLink]="['/about-us']">About Me</a>
@@ -54,7 +54,7 @@
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1">
-            <img src="assets/saurab-new-profile.png" style="border-radius: 25px;" alt="" width="35" height="35">
+            <!-- <img src="assets/saurab-new-profile.png" style="border-radius: 25px;" alt="" width="35" height="35"> -->
           </a>
         </li>
       </ul>

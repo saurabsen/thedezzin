@@ -62,7 +62,7 @@ export class DesignService {
   }
 
   public getVideo(): Observable<any>{
-    return this.http.get("assets/Json-files/video-image.json");
+    return this.http.get("assets/Json-files/stock-video.json");
   }
 
   public getTypography(): Observable<any>{
