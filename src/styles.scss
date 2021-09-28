@@ -13,8 +13,35 @@
   display: inline-block;
   //width: calc(33.33% - 21.5px);
   //background: #fff;
-  box-shadow: 8px 16px 80px -36px rgb(0 81 132 / 25%);
+  // box-shadow: 8px 16px 80px -36px rgb(0 81 132 / 25%);
+  box-shadow: 0 6px 24px 0 rgb(0 0 0 / 1%);
   border-radius: 16px;
+
+  h4 {
+    height: 60px;
+  }
+
+  p {
+    height: 75px;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 5;
+    -moz-line-clamp: 5;
+    -ms-line-clamp: 5;
+    line-clamp: 5;
+    overflow: hidden;
+  }
+}
+
+.card:hover {
+  text-decoration: none!important;
+  box-shadow: 0 6px 24px 0 rgb(0 0 0 / 10%);
+  background: #fff;
+  transition: box-shadow .25s linear;
 }
 
 
