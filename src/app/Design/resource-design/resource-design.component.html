@@ -29,3 +29,13 @@
     </div>
   </div> -->
 </div>
+
+<div id="myModal" class="modal" [ngStyle]="{'display':isModel === true ? 'block' : 'none' }">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span (click)="close()" class="close">&times;</span>
+    <p style="text-align: center;">The official Website is launched. Please visit. <a target="_blank" href="https://uxmarg.com">www.uxmarg.com</a></p>
+  </div>
+
+</div>
